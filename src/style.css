@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Bitter", serif;
+}
+
+body {
+  background-color: #dfe7ef;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.c-play {
+  margin: 6rem 1rem;
+  background-color: #eef3f7;
+  padding: 1rem;
+  border-radius: 15px;
+  box-shadow: 0px 15px 35px -5px rgba(50, 88, 130, 0.32);
+}
+
+.c-player--cover {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.details-img {
+  width: 15rem;
+  height: 15rem;
+  position: relative;
+  margin-top: -80px;
+  border-radius: 15px;
+  box-shadow: 0px 10px 40px 0px#88c1f9;
+}
+
+.details-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 1px 20px 30px -1px #11244ea3;
+}
+
+.c-player--controls {
+  margin-top: 2rem;
+  display: flex;
+  cursor: pointer;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+#like-btn {
+  color: #acb8cc;
+  font-size: 1.5rem;
+  border: none;
+  background-color: #eef3f7;
+  cursor: pointer;
+  width: 1rem;
+}
+#like-btn :hover {
+  transition: 0.3s;
+  font-size: 2rem;
+}
+.c-player--controls .active-btn i {
+  transition: 0.3s;
+  color: red;
+}
+
+.link-btn {
+  color: #acb8cc;
+  font-size: 1.5rem;
+  border: none;
+  background-color: #eef3f7;
+  cursor: pointer;
+  width: 1rem;
+}
+
+.link-btn :hover {
+  transition: 0.3s;
+  color: #345bb394;
+  font-size: 2rem;
+}
+
+.skip-btn {
+  color: #acb8cc;
+  font-size: 1.5rem;
+  border: none;
+  background-color: #eef3f7;
+  cursor: pointer;
+  width: 1rem;
+}
+.skip-btn :hover {
+  transition: 0.3s;
+  color: #345bb394;
+  font-size: 2rem;
+}
+
+.play-btn {
+  color: #345bb394;
+  font-size: 4rem;
+  border: none;
+  background-color: #eef3f7;
+  cursor: pointer;
+  width: 5rem;
+  height: 5rem;
+}
+
+.play-btn :hover {
+  transition: 0.3s;
+  color: #345bb394;
+  font-size: 5rem;
+}
+
+.c-player--details {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.details-title {
+  color: #71829e;
+  font-weight: 800;
+}
+
+.details-artist {
+  color: #71829e;
+  font-weight: 400;
+}
